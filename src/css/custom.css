@@ -19,7 +19,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #3bd4ff;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -178,4 +178,22 @@ h2 {
 .contact-box {
   display: flex;
   gap: 30px;
+}
+
+.get-started-block {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+
+  & a {
+    text-align: center;
+    margin-left: 20px;
+  }
+}
+
+.generation-img-container {
+  height: 186px;
+  margin-bottom: 30px;
+  background-size: contain;
+  background-image: url("/static/img/liblab-generation-flow-dark.svg");
 }
