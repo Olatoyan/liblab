@@ -1,0 +1,181 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* src/css/custom.css */
+
+.command-block {
+  padding: 20px;
+  background-color: #313131;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.command-block pre {
+  border-radius: 3px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.command-block pre code {
+  display: block;
+  color: #333;
+  font-size: 16px;
+}
+
+.learn-more {
+  display: inline-block;
+  color: #3db4ff;
+  text-decoration: none;
+  border: 1px solid #3db4ff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 50px;
+  font-weight: 700;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+  &:hover {
+    color: #000;
+    background-color: #3db4ff;
+  }
+}
+
+.sdk-box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.images-container p {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.images-container img {
+  height: 86px;
+  width: 86px;
+}
+
+.sdk-language {
+  font-size: 14px;
+  margin: 0;
+  & span {
+    color: #3db4ff;
+  }
+}
+
+.tutorial-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tutorial {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e080;
+  border-radius: 15px;
+  padding: 10px 15px;
+  width: 400px;
+
+  & h3 {
+    color: #3db4ff;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  & p {
+    font-size: 15px;
+  }
+
+  & a {
+    display: inline-block;
+    color: #3db4ff;
+    text-decoration: none;
+    border: 1px solid #3db4ff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 50px;
+    font-weight: 700;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    text-align: center;
+
+    &:hover {
+      color: #000;
+      background-color: #3db4ff;
+    }
+  }
+}
+
+.dashboard-layer {
+  height: 740px;
+  margin-bottom: 20px;
+  background-image: url("/static/img/dashboard-dark.webp");
+}
+
+.yt-channel {
+  display: flex;
+  gap: 20px;
+
+  & span {
+    color: #3db4ff;
+  }
+}
+
+.img-block p {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 35px;
+  align-items: center;
+  & img {
+    width: 32px;
+  }
+}
+
+.join {
+  & a {
+    color: #3db4ff;
+  }
+}
+
+.contact-box {
+  display: flex;
+  gap: 30px;
+}
