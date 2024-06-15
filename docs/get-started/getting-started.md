@@ -1,22 +1,23 @@
 ---
 id: getting-started
 title: Getting Started
+next: quickstart-generate-sdk
 ---
 
 # Getting started
 
 liblab helps you automatically generate SDKs in different programming languages as well as developer documentation for your API. This guide will help you get started, giving you an overview of liblab, the CLI, and the process to generate SDKs.
 
-> <div class="get-started-block">
+> <div className="get-started-block">
 >  <p>Sign up now to get started with liblab for free</p>
->  <a class="learn-more">Learn more</a>
+>  <a className="learn-more">Learn more</a>
 > </div>
 
 ## The SDK generation process
 
 To generate SDKs you use the liblab CLI - a command line interface that has features including the ability to configure and generate SDKs. This CLI takes a configuration file and an API spec, and outputs SDKs and documentation.
 
-<div class="generation-img-container"></div>
+<div className="generation-img-container"></div>
 
 liblab supports API specs in <a href="https://swagger.io">Swagger</a>, <a href="https://www.openapis.org">OpenAPI</a>, and <a href="https://www.postman.com/collection/">Postman Collection</a> formats. You can find a full list of what we support in our <a href="">supported specs guide</a>.
 
@@ -57,28 +58,28 @@ To learn more about the CLI and the configuration file, check out the <a href=""
 
 Otherwise, check out one of our hands-on tutorials to help you get started.
 
-<div class="tutorial-box">
-<div class="tutorial"> 
+<div className="tutorial-box">
+<div className="tutorial"> 
 <h3>End-to-end SDK generation and publishing with GitHub Actions</h3>
 <p>Automatically generate your SDK every time your API changes using GitHub Actions.</p>
 <a href="">Go</a>
 </div>
-<div class="tutorial">
+<div className="tutorial">
 <h3>Build a retrieval augmented generation (RAG) AI app using SDKs</h3>
 <p>Learn how to add RAG to your apps using Semantic Kernel and C# SDKs.</p>
 <a href="">Go</a>
 </div>
-<div class="tutorial">
+<div className="tutorial">
 <h3>Integrate SDK Snippets into your API Reference Documentation using Docusaurus</h3>
 <p>Learn how to add SDK documentation to an existing Docusaurus documentation site.</p>
 <a href="">Go</a>
 </div>
-<div class="tutorial">
+<div className="tutorial">
 <h3>Customize your SDK with hooks</h3>
 <p>Learn how to customize your SDK with hooks.</p>
 <a href="">Go</a>
 </div>
-<div class="tutorial">
+<div className="tutorial">
 <h3>liblab llama SDK challenge 🦙</h3>
 <p>Learn how to build an SDK to control a llama in a game.</p>
 <a href="">Go</a>
