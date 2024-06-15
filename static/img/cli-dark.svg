@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="918px" height="638px" viewBox="0 0 918 638" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>basic-cli-flow-dark</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CLI-usage-flow" transform="translate(-112, -129)">
+            <g id="basic-cli-flow-dark" transform="translate(112, 129)">
+                <path id="Line-Copy-3" d="M377.5,80.5 L377.5,114.5 L164.515,114.5 L164.784,131.986 L170.783813,131.893977 L164,146 L156.785469,132.109336 L162.784,132.016 L162.500118,113.515383 L162.484497,112.5 L375.499,112.5 L375.5,80.5 L377.5,80.5 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-6" d="M590.5,80.5 L590.5,114.5 L377.515,114.5 L377.784,131.986 L383.783813,131.893977 L377,146 L369.785469,132.109336 L375.784,132.016 L375.500118,113.515383 L375.484497,112.5 L588.5,112.5 L588.5,80.5 L590.5,80.5 Z" transform="translate(483, 113.75) scale(-1, 1) translate(-483, -113.75)" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-8" d="M376.5,226.5 L383.5,240.5 L377.499,240.5 L377.5,259.5 L164.515,259.5 L164.999882,290.984617 L165.015264,291.984499 L163.015501,292.015264 L163.000118,291.015383 L162.500118,258.515383 L162.484497,257.5 L375.499,257.5 L375.499,240.5 L369.5,240.5 L376.5,226.5 Z" transform="translate(270, 258.75) scale(1, -1) translate(-270, -258.75)" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-7" d="M589.5,226.5 L596.5,240.5 L590.5,240.5 L590.5,259.5 L377.515,259.5 L377.999882,290.984617 L378.015264,291.984499 L376.015501,292.015264 L376.000118,291.015383 L375.500118,258.515383 L375.484497,257.5 L588.5,257.5 L588.5,240.5 L582.5,240.5 L589.5,226.5 Z" transform="translate(483, 258.75) scale(-1, -1) translate(-483, -258.75)" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-5" d="M376.490245,372.490339 L376.499953,373.490292 L376.863,410.99 L382.863754,410.932702 L376,425 L368.864414,411.068618 L374.863,411.01 L374.500047,373.509708 L374.490339,372.509755 L376.490245,372.490339 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-10" d="M576.555075,325.341221 L590.500441,332.449438 L576.446648,339.340801 L576.493,333.34 L538.991814,333.050532 L537.991844,333.042788 L538.007334,331.042848 L539.007304,331.050592 L576.508,331.34 L576.555075,325.341221 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-12" d="M575.555075,458.341221 L589.500441,465.449438 L575.446648,472.340801 L575.493,466.34 L537.991814,466.050532 L536.991844,466.042788 L537.007334,464.042848 L538.007304,464.050592 L575.508,464.34 L575.555075,458.341221 Z" transform="translate(563.75, 465.25) scale(-1, 1) translate(-563.75, -465.25)" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <g id="Group-2" transform="translate(214, 0)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Install-the-CLI" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="67.7260351" y="52">Install the CLI</tspan>
+                    </text>
+                </g>
+                <g id="Group-2-Copy-3" transform="translate(213, 292)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Initialize-config-fi" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="32.5523515" y="52">Initialize config file</tspan>
+                    </text>
+                </g>
+                <g id="Group-2-Copy-4" transform="translate(214, 425)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Generate-SDK/docs" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="22.0887489" y="52">Generate SDK/docs</tspan>
+                    </text>
+                </g>
+                <path id="Line-Copy-11" d="M753.490245,372.490339 L753.499953,373.490292 L753.863,410.99 L759.863754,410.932702 L753,425 L745.864414,411.068618 L751.863,411.01 L751.500047,373.509708 L751.490339,372.509755 L753.490245,372.490339 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <g id="Group-2-Copy-7" transform="translate(591, 425)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Build-hooks" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="80.7619712" y="52">Build hooks</tspan>
+                    </text>
+                </g>
+                <g id="Group-2-Copy-6" transform="translate(591, 292)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Validate-API-spec" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="39.7478398" y="52">Validate API spec</tspan>
+                    </text>
+                </g>
+                <path id="Line-Copy-9" d="M376.490245,504.490339 L376.499953,505.490292 L376.863,542.99 L382.863754,542.932702 L376,557 L368.864414,543.068618 L374.863,543.01 L374.500047,505.509708 L374.490339,504.509755 L376.490245,504.490339 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <g id="Group-2-Copy-5" transform="translate(214, 557)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Publish-SDK/docs" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="36.0494374" y="52">Publish SDK/docs</tspan>
+                    </text>
+                </g>
+                <g id="Group-2-Copy" transform="translate(427, 146)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Log-in" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="121.162005" y="52">Log in</tspan>
+                    </text>
+                </g>
+                <g id="Group-2-Copy-2" transform="translate(0, 146)">
+                    <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="325" height="79" rx="27"></rect>
+                    <text id="Register" font-family="Inter-SemiBold, Inter" font-size="32" font-weight="500" letter-spacing="-1.28316832" fill="#FFFFFF">
+                        <tspan x="104.087219" y="52">Register</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

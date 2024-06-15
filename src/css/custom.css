@@ -71,6 +71,7 @@ h2 {
 
   &:hover {
     color: #000;
+    text-decoration: none;
     background-color: #3db4ff;
   }
 }
@@ -146,7 +147,8 @@ h2 {
 }
 
 .dashboard-layer {
-  height: 740px;
+  height: 452px;
+  background-size: contain;
   margin-bottom: 20px;
   background-image: url("/static/img/dashboard-dark.webp");
 }
@@ -184,11 +186,11 @@ h2 {
 .get-started-block {
   display: flex;
   flex-direction: column;
-  width: 400px;
 
   & a {
     text-align: center;
     margin-left: 20px;
+    width: 400px;
   }
 }
 
@@ -230,4 +232,41 @@ h2 {
   height: 618px;
   background-size: contain;
   background-image: url("/static/img/screenshot-safari-petstore-sdk-python-dark.webp");
+}
+
+.cli-overview-container {
+  height: 408px;
+  width: 587px;
+  background-size: contain;
+  background-image: url("/static/img/cli-dark.svg");
+  margin-bottom: 50px;
+}
+.cicd-overview-container {
+  height: 500px;
+  width: 587px;
+  background-size: contain;
+  background-image: url("/static/img/cicd-flow-dark.svg");
+  margin-bottom: 50px;
+}
+
+.cli-command-container {
+  background-color: #193c47;
+  padding: 1rem;
+  border-left: 5px solid #4cb3d4;
+  border-radius: 0.4rem;
+}
+
+.auth-box {
+  display: flex;
+  gap: 30px;
+
+  & div p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    & img {
+      margin-top: 20px;
+    }
+  }
 }

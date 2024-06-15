@@ -4,14 +4,16 @@ title: Getting Started
 next: quickstart-generate-sdk
 ---
 
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+import NextStep from "../../src/components/NextStep.tsx"
+import GetStartedBlock from "../../src/components/GetStartedBlock.tsx"
+
 # Getting started
 
 liblab helps you automatically generate SDKs in different programming languages as well as developer documentation for your API. This guide will help you get started, giving you an overview of liblab, the CLI, and the process to generate SDKs.
 
-> <div className="get-started-block">
->  <p>Sign up now to get started with liblab for free</p>
->  <a className="learn-more">Learn more</a>
-> </div>
+<GetStartedBlock text="Sign up now to get started with liblab for free" />
 
 ## The SDK generation process
 
@@ -28,15 +30,44 @@ The usual developer flow is to work through this process manually a few times to
 ## Install the liblab CLI
 
 The liblab CLI can be installed using <a href="https://www.npmjs.com">npm</a> or <a href="https://brew.sh">Homebrew</a>:
+<Tabs>
+<TabItem value="npm" label="npm" default>
 
-To install the liblab CLI make sure you have <a href="https://nodejs.org">Node.js</a> version 18.17 or later installed. We recommend using <code>nvm</code> to manage your Node.js versions.
+To install the liblab CLI make sure you have <a href="https://nodejs.org">Node.js</a> version 18.17 or later installed. We recommend using <a href="https://github.com/nvm-sh/nvm">`nvm`</a> to manage your Node.js versions.
 
-You can install the CLI using <code>npm</code> by running this command in your terminal:
+You can install the CLI using `npm` by running this command in your terminal:
 
 ```bash
 npm install -g liblab
 ```
 
+</TabItem>
+<TabItem value="pnpm" label="pnpm">
+To install the liblab CLI make sure you have <a href="https://nodejs.org">Node.js</a> version 18.17 or later installed, as well as <a href="https://pnpm.io/installation">`pnpm`</a>.
+
+You can install the CLI using `pnpm` by running this command in your terminal:
+
+```bash
+pnpm add -g liblab
+```
+
+</TabItem>
+<TabItem value="brew" label="Homebrew">
+
+If you are using Homebrew, first you need to add the liblab repository to your list of Homebrew taps. You can do this by running this command in your terminal:
+
+```bash
+brew tap liblaber/homebrew-liblab
+```
+
+Then you can install the liblab CLI by running this command:
+
+```bash
+brew install liblab
+```
+
+</TabItem>
+</Tabs>
 You can read more on installation in our <a href="">CLI installation guide</a>.
 
 ## Register or login
@@ -58,30 +89,4 @@ To learn more about the CLI and the configuration file, check out the <a href=""
 
 Otherwise, check out one of our hands-on tutorials to help you get started.
 
-<div className="tutorial-box">
-<div className="tutorial"> 
-<h3>End-to-end SDK generation and publishing with GitHub Actions</h3>
-<p>Automatically generate your SDK every time your API changes using GitHub Actions.</p>
-<a href="">Go</a>
-</div>
-<div className="tutorial">
-<h3>Build a retrieval augmented generation (RAG) AI app using SDKs</h3>
-<p>Learn how to add RAG to your apps using Semantic Kernel and C# SDKs.</p>
-<a href="">Go</a>
-</div>
-<div className="tutorial">
-<h3>Integrate SDK Snippets into your API Reference Documentation using Docusaurus</h3>
-<p>Learn how to add SDK documentation to an existing Docusaurus documentation site.</p>
-<a href="">Go</a>
-</div>
-<div className="tutorial">
-<h3>Customize your SDK with hooks</h3>
-<p>Learn how to customize your SDK with hooks.</p>
-<a href="">Go</a>
-</div>
-<div className="tutorial">
-<h3>liblab llama SDK challenge 🦙</h3>
-<p>Learn how to build an SDK to control a llama in a game.</p>
-<a href="">Go</a>
-</div>
-</div>
+<NextStep />
