@@ -3,6 +3,35 @@
   align-items: center;
   justify-content: center;
   padding: 0 4rem 4rem;
+  position: relative;
+
+  & button {
+    z-index: 5;
+    background: none;
+    border: none;
+    display: none;
+
+    & .closed {
+      display: none;
+    }
+
+    & .open {
+      display: block;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    padding-left: 2rem;
+    justify-content: space-between;
+
+    & button {
+      display: block;
+    }
+  }
+
+  @media (max-width: 540px) {
+    padding: 0 2rem 2rem;
+  }
 }
 
 .nav ul {
@@ -10,6 +39,20 @@
   display: flex;
   gap: 25px;
   margin: 0;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    padding-top: 6rem;
+    background: #20262d;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: absolute;
+    top: -28%;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    /* padding-left: 2rem; */
+  }
 }
 
 .nav a {

@@ -23,7 +23,7 @@ function HomepageHeader() {
       <Nav />
       <div className="container">
         <Heading as="h1" className={styles.hero__title}>
-          Your API deserves a
+          Your API deserves a{" "}
           <span className={styles.text__gradient}>better SDK.</span>
         </Heading>
         <p className="hero__subtitle">

@@ -36,6 +36,10 @@
   letter-spacing: -0.02em;
   text-align: center;
   padding-top: 1rem;
+
+  @media (max-width: 800px) {
+    font-size: 2em;
+  }
 }
 
 .offer-sec-text {
@@ -45,6 +49,10 @@
   max-width: 444px;
   text-align: center;
   padding-top: 20px;
+
+  @media (max-width: 700px) {
+    padding-top: 0;
+  }
 }
 
 .offer-heading {
@@ -56,11 +64,24 @@
 .logo {
   position: absolute;
   width: 70px;
+
+  @media (max-width: 1000px) {
+    width: 40px;
+  }
+  @media (max-width: 700px) {
+    width: 25px;
+  }
 }
 
 .logo-ts {
   top: 32%;
   left: 10%;
+  @media (max-width: 1000px) {
+    left: 5%;
+  }
+  @media (max-width: 700px) {
+    top: 47%;
+  }
 }
 .logo-go {
   top: 3%;
@@ -74,6 +95,10 @@
 .logo-py {
   top: 46%;
   right: 20%;
+
+  @media (max-width: 1000px) {
+    right: 10%;
+  }
 }
 .logo-java {
   bottom: 20%;

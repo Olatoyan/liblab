@@ -1,6 +1,17 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
+
+  @media (max-width: 700px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    & a {
+      grid-column: 1/-1;
+      padding-bottom: 5rem;
+      padding-left: 2rem;
+    }
+  }
 }
 
 .footer ul {

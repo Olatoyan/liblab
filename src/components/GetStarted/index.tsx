@@ -2,7 +2,7 @@ import "./style.css";
 
 function index() {
   return (
-    <section className="container">
+    <section className="container fingerprint">
       <div>
         <p>GET STARTED</p>
       </div>

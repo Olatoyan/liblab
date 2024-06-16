@@ -44,9 +44,9 @@
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
+  /* .heroBanner {
     padding: 2rem;
-  }
+  } */
 }
 
 .buttons {
@@ -57,7 +57,7 @@
 }
 
 .button {
-  z-index: 5;
+  /* z-index: 5; */
   padding: 0.75em 1.25em;
   justify-content: center;
   align-items: center;
@@ -80,6 +80,10 @@
   line-height: 1;
   font-weight: 800;
   letter-spacing: -0.03em;
+
+  @media (max-width: 800px) {
+    font-size: 3em;
+  }
 }
 
 .text__gradient {
@@ -89,4 +93,8 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
+
+  @media (max-width: 1000px) {
+    display: inline-block;
+  }
 }

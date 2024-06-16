@@ -35,6 +35,18 @@
     line-height: 1.5;
     letter-spacing: -0.02em;
   }
+
+  @media (max-width: 1000px) {
+    max-width: fit-content;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 1.8em;
+
+    & ~ p {
+      font-size: 1em;
+    }
+  }
 }
 
 .indigo-text {
@@ -49,4 +61,11 @@
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 35px;
+}
+.fingerprint {
+  padding-top: 9rem;
+
+  @media (max-width: 540px) {
+    padding-top: 5rem;
+  }
 }

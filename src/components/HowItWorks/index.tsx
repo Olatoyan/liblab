@@ -20,7 +20,7 @@ function index() {
             </p>
           </div>
         </div>
-        <div className="automated-small-container ">
+        <div className="automated-small-container specs">
           <img src="img/API-specs.webp" />
           <div>
             <h3>Bring your APIs</h3>

@@ -2,7 +2,7 @@ import "./styles.css";
 
 function index() {
   return (
-    <section className="seen container">
+    <section className="container">
       <div className="seen">
         <div className="safe__container">
           <span className="safe__container__span"></span>
