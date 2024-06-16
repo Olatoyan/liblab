@@ -1,70 +1,45 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
-};
+import "./styles.css";
 
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({title, Svg, description}: FeatureItem) {
+export default function HomepageFeatures() {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
-export default function HomepageFeatures(): JSX.Element {
-  return (
-    <section className={styles.features}>
+    <section className="offer-section">
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+        <div className="offer-heading">
+          <div className="shine__container">
+            <span className="shine__container__span"></span>
+            <p>LET YOUR API SHINE</p>
+            <span className="shine__container__span"></span>
+          </div>
+          <p className="offer-text">
+            Offer your customers SDKs in their own preferred language
+          </p>
+          <p className="offer-sec-text">
+            liblab auto generates SDKs in all main languages, so developers can
+            easily adopt your APIs in any stack they use.
+          </p>
         </div>
       </div>
+
+      <img
+        src="img/typescript.webp"
+        alt="TypeScript"
+        className="logo logo-ts"
+      />
+      <img src="img/go.webp" alt="go" className="logo logo-go" />
+      <img src="img/php.webp" alt="php" className="logo logo-php" />
+      <img src="img/python.webp" alt="python" className="logo logo-py" />
+      <img src="img/java.webp" alt="java" className="logo logo-java" />
+      <img src="img/swift.webp" alt="swift" className="logo logo-swift" />
+      <img src="img/terra.webp" alt="terra" className="logo logo-terra" />
+      <img
+        src="img/typescript.webp"
+        alt="TypeScript"
+        className="logo logo-ts"
+      />
     </section>
   );
 }

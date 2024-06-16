@@ -1,11 +1,9 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.shine__container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
 }
-
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.shine__container__span span {
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
 }
