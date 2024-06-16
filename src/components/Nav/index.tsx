@@ -1,13 +1,14 @@
-import "./styles.css"
-
+import "./styles.css";
 
 function Nav() {
   return (
     <nav className="nav">
-      <img src="img/liblab-logo.svg" />
+      <a href="/">
+        <img src="img/liblab-logo.svg" />
+      </a>
       <ul>
         <li>
-          <a href="/docs">Docs</a>
+          <a href="/docs/welcome">Docs</a>
         </li>
         <li>
           <a href="">Pricing</a>
