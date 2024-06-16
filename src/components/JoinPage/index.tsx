@@ -2,7 +2,7 @@ import "./styles.css";
 
 function index() {
   return (
-    <section className="join">
+    <section className="joins">
       <h2 className="heading-text">
         Try <span>liblab</span> for free
       </h2>

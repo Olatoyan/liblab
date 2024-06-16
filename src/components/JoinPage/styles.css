@@ -1,4 +1,4 @@
-.join {
+.joins {
   text-align: center;
   padding: 10rem;
 
@@ -43,7 +43,7 @@
   padding: 0 1rem;
 }
 
-.join a {
+.joins a {
   display: inline-flex;
   padding: 1.125rem 1.875rem;
   justify-content: center;
