@@ -15,3 +15,9 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+cameron:
+  name: Cameron Steele
+  title: Front End Engineer @ Facebook
+  url: https://github.com/camsteele
+  image_url: https://github.com/camsteele.png

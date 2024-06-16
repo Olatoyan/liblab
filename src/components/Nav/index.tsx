@@ -11,16 +11,16 @@ function Nav() {
           <a href="/docs/welcome">Docs</a>
         </li>
         <li>
-          <a href="">Pricing</a>
+          <a href="/">Pricing</a>
         </li>
         <li>
-          <a href="">About</a>
+          <a href="/">About</a>
         </li>
         <li>
-          <a href="">Careers</a>
+          <a href="/">Careers</a>
         </li>
         <li>
-          <a href="">Blog</a>
+          <a href="/blog">Blog</a>
         </li>
         <li>
           <a href="/contact">Contact</a>
