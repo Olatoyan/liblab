@@ -1,6 +1,4 @@
-import "./style.css";
-
-function index() {
+function GetStarted() {
   return (
     <section className="container pt-36 mobile:pt-20">
       <div>
@@ -28,4 +26,4 @@ function index() {
   );
 }
 
-export default index;
+export default GetStarted;

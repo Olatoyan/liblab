@@ -3,20 +3,22 @@ import "./styles.css";
 function index() {
   return (
     <section className="container">
-      <div className="seen">
-        <div className="safe__container">
-          <span className="safe__container__span"></span>
-          <p>SEE WHAT OTHERS SAY</p>
-          <span className="safe__container__span"></span>
+      <div className="seen flex flex-col items-center pt-40 w-full tablet:pt-20">
+        <div className=" grid grid-cols-[1fr_auto_1fr] items-center w-full gap-6">
+          <span className="h-[1px] w-full bg-[#ffffff86]"></span>
+          <p className="m-0 text-[0.625rem] font-semibold tracking-[0.2rem] uppercase">
+            See what others say
+          </p>
+          <span className="h-[1px] w-full bg-[#ffffff86]"></span>
         </div>
 
-        <h2 className="seen-text">
+        <h2 className=" text-[3em] leading-[1] font-extrabold max-w-[700px] tracking-[-0.03rem] text-center pt-10 tablet:text-[1.8rem] pb-10">
           As seen <span className="purple-text">on</span>
         </h2>
 
         <img src="img/TechCrunch.jpg" className="seen-icon" />
 
-        <p className="seen-sec-text">
+        <p className="max-w-[300px] pt-10 tablet:text-[1rem] text-[1.25rem]">
           liblab provides SDK development tools that integrate with an API for
           authentication, error handling, security and more. The platform
           generates a documentation page and developer portal, ostensibly
@@ -24,7 +26,7 @@ function index() {
         </p>
       </div>
 
-      <div className="users">
+      <div className="grid grid-cols-3 gap-6 mt-12 desktop:grid-cols-1">
         <UserQuotes
           text="liblab was what we needed after trying a few SDK generators. Aside from generating an SDK being easy, the code quality and customization options were outstanding."
           name="Hamza Essahely"
@@ -45,7 +47,7 @@ function index() {
         />
       </div>
 
-      <div className="top-post">
+      <div className=" mt-8 flex justify-center">
         <a href="">
           <img src="img/top-post-badge.svg" />
         </a>
@@ -66,16 +68,16 @@ function UserQuotes({
   img: string;
 }) {
   return (
-    <div className="user">
+    <div className="p-6 rounded-[8px] bg-[#151b22] gap-7 flex flex-col items-start">
       <img src="img/quotes.svg" className="quotes" />
 
       <p>{text}</p>
 
-      <div className="user-container">
-        <img src={img} className="user-img" />
-        <div className="user-info">
-          <p className="user-name">{name}</p>
-          <p className="user-position">{position}</p>
+      <div className=" flex gap-4 items-center mt-auto">
+        <img src={img} className=" rounded-[50%] w-[64px] h-[64px]" />
+        <div className="">
+          <p className=" font-semibold">{name}</p>
+          <p className="">{position}</p>
         </div>
       </div>
     </div>

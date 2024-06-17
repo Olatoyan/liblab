@@ -1,4 +1,4 @@
-.automated-grid {
+/* .automated-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 128px;
@@ -58,13 +58,7 @@
   padding: 0.5rem;
 }
 
-.green-text {
-  padding-right: 0.05em;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(243deg, #4ade80 23%, #14b8a6 87%);
-}
+
 
 .automated-title {
   color: #c5cfd9;
@@ -143,4 +137,12 @@
   @media (max-width: 800px) {
     grid-column: auto;
   }
+} */
+
+.green-text {
+  padding-right: 0.05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(243deg, #4ade80 23%, #14b8a6 87%);
 }

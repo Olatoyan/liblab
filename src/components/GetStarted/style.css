@@ -1,4 +1,4 @@
-.fingerprint-icon {
+/* .fingerprint-icon {
   display: flex;
   width: 2.75em;
   height: 2.75em;
@@ -19,8 +19,8 @@
   font-size: 1.25em;
   text-align: center;
   padding: 0.5rem;
-}
-
+} */
+/* 
 .get-started-title {
   color: #c5cfd9;
   font-size: 3em;
@@ -47,7 +47,7 @@
       font-size: 1em;
     }
   }
-}
+} */
 
 .indigo-text {
   padding-right: 0.05em;

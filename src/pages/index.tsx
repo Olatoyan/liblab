@@ -1,7 +1,5 @@
 import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import GetStarted from "@site/src/components/GetStarted";
 import HowItWorks from "@site/src/components/HowItWorks";
@@ -22,7 +20,10 @@ function HomepageHeader() {
     <header className={clsx("hero__container", styles.heroBanner)}>
       <Nav />
       <div className="container">
-        <Heading as="h1" className={styles.hero__title}>
+        <Heading
+          as="h1"
+          className="text-[#c5cfd9] text-[5rem] leading-[1] font-extrabold tracking-[-0.03rem] laptop:text-[3rem]"
+        >
           Your API deserves a{" "}
           <span className={styles.text__gradient}>better SDK.</span>
         </Heading>
@@ -30,8 +31,11 @@ function HomepageHeader() {
           Instantly generate SDKs in multiple languages for your API service.
         </p>
 
-        <div className={styles.buttons}>
-          <a href="" className={styles.button}>
+        <div className="flex items-center justify-center gap-4">
+          <a
+            href=""
+            className="py-[0.75rem] px-[1.25rem] text-[1.5rem] text-white leading-[1] bg-[#0052cc] rounded-full font-semibold tracking-[-0.01rem] transition-colors ease-[cubic-bezier(0.165,0.84,0.44,1)] duration-200"
+          >
             Get started
           </a>
         </div>
@@ -41,11 +45,10 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <>
       <HomepageHeader />
-      <main>
+      <main className="bg-[#0d1117]">
         <HomepageFeatures />
         <GetStarted />
         <HowItWorks />

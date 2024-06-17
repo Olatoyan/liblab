@@ -1,4 +1,4 @@
-.seen {
+/* .seen {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,13 +52,6 @@
   }
 }
 
-.purple-text {
-  padding-right: 0.05em;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(207deg, #ef4848 23%, #6366f1 87%);
-}
 
 .seen-sec-text {
   width: 300px;
@@ -116,4 +109,12 @@
     display: flex;
     justify-content: center;
   }
+} */
+
+.purple-text {
+  padding-right: 0.05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(207deg, #ef4848 23%, #6366f1 87%);
 }

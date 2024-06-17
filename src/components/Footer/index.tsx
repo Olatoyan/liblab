@@ -2,31 +2,49 @@ import "./styles.css";
 
 function index() {
   return (
-    <footer className="footer">
-      <a href="">© 2024 - liblab INC.</a>
+    <footer className="bg-[#1c1e21] p-8 flex justify-evenly tablet:grid tablet:grid-cols-2">
+      <a href="" className="tablet:col-span-full tablet:pb-20 tablet:pl-8">
+        © 2024 - liblab INC.
+      </a>
 
       <ul>
-        <h3>FOLLOW</h3>
+        <h3 className="text-[#c5cfd9] text-[0.625rem] font-bold uppercase leading-[1.2]">
+          Follow
+        </h3>
         {["Discord", "GitHub", "Twitter"].map((item) => (
-          <li key={item}>{item}</li>
+          <li key={item} className="text-[#92a0af] text-[1.1rem]">
+            {item}
+          </li>
         ))}
       </ul>
       <ul>
-        <h3>PRODUCT</h3>
+        <h3 className="text-[#c5cfd9] text-[0.625rem] font-bold uppercase leading-[1.2]">
+          Product
+        </h3>
         {["Documentation", "Pricing", "Blog"].map((item) => (
-          <li key={item}>{item}</li>
+          <li key={item} className="text-[#92a0af] text-[1.1rem]">
+            {item}
+          </li>
         ))}
       </ul>
       <ul>
-        <h3>COMPANY</h3>
+        <h3 className="text-[#c5cfd9] text-[0.625rem] font-bold uppercase leading-[1.2]">
+          Company
+        </h3>
         {["About us", "Careers", "Contact"].map((item) => (
-          <li key={item}>{item}</li>
+          <li key={item} className="text-[#92a0af] text-[1.1rem]">
+            {item}
+          </li>
         ))}
       </ul>
       <ul>
-        <h3>LEGAL</h3>
+        <h3 className="text-[#c5cfd9] text-[0.625rem] font-bold uppercase leading-[1.2]">
+          Legal
+        </h3>
         {["Privacy policy", "Terms of Use"].map((item) => (
-          <li key={item}>{item}</li>
+          <li key={item} className="text-[#92a0af] text-[1.1rem]">
+            {item}
+          </li>
         ))}
       </ul>
     </footer>
