@@ -123,7 +123,7 @@
   }
 }
 
-.tutorial-box {
+/* .tutorial-box {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -173,7 +173,7 @@
       background-color: #3db4ff;
     }
   }
-}
+} */
 
 .dashboard-layer {
   height: 452px;
