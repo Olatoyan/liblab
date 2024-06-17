@@ -1,7 +1,7 @@
 function HowItWorks() {
   return (
     <section className="container pt-40 mobile:pt-20">
-      <h2 className="px-40 desktop:px-16 tablet:px-0 uppercase text-[1.3rem] pb-8 font-bold tracking-[-0.01rem]">
+      <h2 className="px-40 desktop:px-16 tablet:px-0 uppercase text-[1.3rem] pb-8 font-bold tracking-[-0.01rem] text-[#ffffff86]">
         How it works
       </h2>
 
@@ -18,7 +18,7 @@ function HowItWorks() {
               <span className="how-it-works-green-text">automated SDKs</span>.
             </p>
 
-            <p className="max-w-[600px] text-[1.25rem] leading-[1.5] tracking-[-0.02rem] tablet:text-[1rem]">
+            <p className="max-w-[600px] text-[1.25rem] leading-[1.5] tracking-[-0.02rem] tablet:text-[1rem] text-white">
               Take control of your time. Automatically generate everything from
               SDK to documentation pages.
             </p>
@@ -31,10 +31,12 @@ function HowItWorks() {
             className="laptop:w-[237px] laptop:h-[100px] laptop:object-contain"
           />
           <div className="max-w-[150px] laptop:w-auto">
-            <h3 className="text-[1.2rem] font-semibold pb-3">
+            <h3 className="text-[1.2rem] font-semibold pb-3 text-white">
               Bring your APIs
             </h3>
-            <p>We support common specs like OpenAPI, Swagger.</p>
+            <p className="text-[#ffffff86]">
+              We support common specs like OpenAPI, Swagger.
+            </p>
           </div>
         </div>
         <div className=" grid grid-cols-[auto_1fr] gap-3 laptop:grid-cols-1">
@@ -44,8 +46,12 @@ function HowItWorks() {
             className="w-[237px] h-[100px] object-cover"
           />
           <div className="max-w-[150px] laptop:w-auto">
-            <h3 className="text-[1.2rem] font-semibold pb-3">liblab magic</h3>
-            <p>Generate SDKs and documentation in any language you want.</p>
+            <h3 className="text-[1.2rem] font-semibold pb-3 text-white">
+              liblab magic
+            </h3>
+            <p className="text-[#ffffff86]">
+              Generate SDKs and documentation in any language you want.
+            </p>
           </div>
         </div>
         <div className=" grid grid-cols-[auto_1fr] gap-3 laptop:grid-cols-1">
@@ -55,8 +61,10 @@ function HowItWorks() {
             className="w-[237px] h-[100px] object-contain"
           />
           <div className="max-w-[150px] laptop:w-auto">
-            <h3 className="text-[1.2rem] font-semibold pb-3">Deploy</h3>
-            <p>
+            <h3 className="text-[1.2rem] font-semibold pb-3 text-white">
+              Deploy
+            </h3>
+            <p className="text-[#ffffff86]">
               liblab releases your SDKs to package managers, and builds your
               documentation pages. .
             </p>
@@ -69,8 +77,10 @@ function HowItWorks() {
             className="w-[237px] h-[100px] object-contain "
           />
           <div className="max-w-[150px] laptop:w-auto">
-            <h3 className="text-[1.2rem] font-semibold pb-3">Monitor & Grow</h3>
-            <p>
+            <h3 className="text-[1.2rem] font-semibold pb-3 text-white">
+              Monitor & Grow
+            </h3>
+            <p className="text-[#ffffff86]">
               liblab Dashboard provides you with SDK usage insights and security
               alerts..
             </p>

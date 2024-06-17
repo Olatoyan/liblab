@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="bg-[#1c1e21] p-8 flex justify-evenly tablet:grid tablet:grid-cols-2 tablet:gap-12">
-      <a href="" className="tablet:col-span-full tablet:pb-4">
+      <a href="" className="tablet:col-span-full tablet:pb-4 text-white">
         © 2024 - liblab INC.
       </a>
 

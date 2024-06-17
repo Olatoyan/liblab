@@ -2,7 +2,7 @@ function GetStarted() {
   return (
     <section className="container pt-36 mobile:pt-20">
       <div>
-        <p className="pb-4">GET STARTED</p>
+        <p className="pb-4 text-white">GET STARTED</p>
       </div>
 
       <div className=" grid grid-cols-[auto_1fr] gap-9">
@@ -17,7 +17,7 @@ function GetStarted() {
             <span className="get-started-indigo-text">SDK</span>.
           </p>
 
-          <p className="max-w-[600px] text-[1.25rem] leading-[1.5] tracking-[-0.02em] tablet:[1rem]">
+          <p className="max-w-[600px] text-[1.25rem] leading-[1.5] tracking-[-0.02em] tablet:[1rem] text-white">
             Each programming language has different patterns. Your SDKs now have
             best practices built in.
           </p>

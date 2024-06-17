@@ -5,7 +5,7 @@ export default function OfferSection() {
         <div className="flex flex-col items-center">
           <div className="grid grid-cols-[1fr_auto_1fr] items-center w-full gap-6">
             <span className="h-[1px] w-full bg-[#ffffff86]"></span>
-            <p className="uppercase m-0 text-[0.625rem] font-semibold tracking-[0.2rem]">
+            <p className="uppercase m-0 text-[0.625rem] font-semibold tracking-[0.2rem] text-[#ffffff86]">
               Let your api shine
             </p>
             <span className="h-[1px] w-full bg-[#ffffff86]"></span>
@@ -13,7 +13,7 @@ export default function OfferSection() {
           <p className="max-w-[717px] text-[#c5cfd9] text-[4rem] leading-[1.2] font-bold text-center pt-4 laptop:text-[2rem]">
             Offer your customers SDKs in their own preferred language
           </p>
-          <p className="offer-sec-text text-[1.25rem] leading-[1.5] tracking-[-0.02rem] max-w-[444px] text-center pt-5 tablet:pt-0">
+          <p className="offer-sec-text text-[1.25rem] leading-[1.5] tracking-[-0.02rem] max-w-[444px] text-center pt-5 tablet:pt-0 text-white">
             liblab auto generates SDKs in all main languages, so developers can
             easily adopt your APIs in any stack they use.
           </p>

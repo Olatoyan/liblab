@@ -28,7 +28,7 @@ function HomepageHeader() {
           Your API deserves a{" "}
           <span className={styles.text__gradient}>better SDK.</span>
         </Heading>
-        <p className="hero__subtitle pb-3 pt-3">
+        <p className="hero__subtitle pb-3 pt-3 text-white">
           Instantly generate SDKs in multiple languages for your API service.
         </p>
 
