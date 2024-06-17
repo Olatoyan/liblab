@@ -2,9 +2,11 @@ import "./styles.css";
 
 function index() {
   return (
-    <div className="contact-grid">
+    <div className=" grid grid-cols-2 gap-20 px-40 pb-40 desktop:px-8 desktop:pb-20 laptop:grid-cols-1">
       <div>
-        <h1 className="heading-text">How can we help your SDK needs?</h1>
+        <h1 className="heading-text text-[#">
+          How can we help your SDK needs?
+        </h1>
         <form>
           <div className="name-box">
             <input type="text" placeholder="First name" />

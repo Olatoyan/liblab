@@ -308,3 +308,43 @@
     }
   }
 }
+
+.get-started-indigo-text {
+  padding-right: 0.05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(351deg, #38bdf8 23%, #4f46e5 87%);
+}
+
+.how-it-works-green-text {
+  padding-right: 0.05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(243deg, #4ade80 23%, #14b8a6 87%);
+}
+
+.secured-purple-text {
+  padding-right: 0.05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(207deg, #ef4848 23%, #6366f1 87%);
+}
+
+.others-purple-text {
+  padding-right: 0.05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(207deg, #ef4848 23%, #6366f1 87%);
+}
+
+.join-liblab-span {
+  background-image: linear-gradient(207deg, #ef4848 23%, #6366f1 87%);
+  padding-right: 0.05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

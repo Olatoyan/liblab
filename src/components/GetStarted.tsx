@@ -13,7 +13,8 @@ function GetStarted() {
 
         <div>
           <p className="text-[#c5cfd9] text-[3rem] leading-[1.1] font-bold tracking-[-0.02rem] max-w-[600px] desktop:max-w-fit tablet:text-[1.8rem]">
-            A true language native <span className="indigo-text">SDK</span>.
+            A true language native{" "}
+            <span className="get-started-indigo-text">SDK</span>.
           </p>
 
           <p className="max-w-[600px] text-[1.25rem] leading-[1.5] tracking-[-0.02em] tablet:[1rem]">

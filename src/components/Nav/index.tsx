@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./styles.css";
 import useMediaQuery from "@site/src/hooks/useMediaQuery";
 
-function Nav() {
+function index() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const isTablet = useMediaQuery("(max-width: 1000px)");
@@ -48,4 +48,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default index;

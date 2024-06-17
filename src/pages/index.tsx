@@ -1,16 +1,17 @@
 import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import GetStarted from "@site/src/components/GetStarted";
-import HowItWorks from "@site/src/components/HowItWorks";
-import SecuredPage from "@site/src/components/SecuredPage";
-import OthersPage from "@site/src/components/OthersPage";
-import JoinPage from "@site/src/components/JoinPage";
-import Footer from "@site/src/components/Footer";
-import Nav from "@site/src/components/Nav";
+// import Nav from "@site/src/components/Nav";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
+import GetStarted from "../components/GetStarted";
+import OfferSection from "../components/OfferSection";
+import HowItWorks from "../components/HowItWorks";
+import SecuredPage from "../components/SecuredPage";
+import OthersPage from "../components/OthersPage";
+import JoinPage from "../components/JoinPage";
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 
 function HomepageHeader() {
   console.log(styles);
@@ -27,7 +28,7 @@ function HomepageHeader() {
           Your API deserves a{" "}
           <span className={styles.text__gradient}>better SDK.</span>
         </Heading>
-        <p className="hero__subtitle">
+        <p className="hero__subtitle pb-3 pt-3">
           Instantly generate SDKs in multiple languages for your API service.
         </p>
 
@@ -49,7 +50,8 @@ export default function Home() {
     <>
       <HomepageHeader />
       <main className="bg-[#0d1117]">
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
+        <OfferSection />
         <GetStarted />
         <HowItWorks />
         <SecuredPage />
